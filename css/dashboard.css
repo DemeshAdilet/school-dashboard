@@ -269,13 +269,6 @@ p { margin: 0; }
   padding: 16px 18px 18px;
 }
 
-.canteen-main {
-  min-height: 0;
-  display: grid;
-  grid-template-rows: minmax(0, 1fr) auto;
-  gap: 16px;
-}
-
 .panel {
   min-height: 0;
   display: flex;
@@ -309,34 +302,22 @@ p { margin: 0; }
   padding: 18px;
 }
 
-.count-panel {
+.meal-footnote {
   flex: 0 0 auto;
-}
-
-.count-body {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: center;
-  gap: 16px;
-  padding: 14px 18px 18px;
-}
-
-.count-value {
-  color: var(--green);
-  font-size: clamp(56px, 6.4vw, 110px);
+  margin: 0;
+  padding: 10px 18px 16px;
+  text-align: center;
+  color: var(--muted);
+  font-size: clamp(16px, 1.15vw, 22px);
   font-weight: 700;
-  line-height: 0.9;
+}
+
+.meal-footnote #meal-count {
+  color: var(--green);
   font-variant-numeric: tabular-nums;
 }
 
-.count-value.is-bump { animation: bump 0.45s ease; }
-
-.count-unit {
-  font-size: clamp(20px, 1.6vw, 32px);
-  font-weight: 700;
-  color: var(--muted);
-}
+.meal-footnote #meal-count.is-bump { animation: bump 0.45s ease; }
 
 .last-photo {
   width: min(520px, 58%);
