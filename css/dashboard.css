@@ -78,12 +78,6 @@ p { margin: 0; }
   white-space: nowrap;
 }
 
-.brand-ver {
-  font-size: clamp(12px, 0.85vw, 16px);
-  color: var(--muted);
-  white-space: nowrap;
-}
-
 .title {
   margin: 0;
   text-align: center;
@@ -308,7 +302,7 @@ p { margin: 0; }
   padding: 10px 18px 16px;
   text-align: center;
   color: var(--muted);
-  font-size: clamp(16px, 1.15vw, 22px);
+  font-size: clamp(24px, 1.15vw, 22px);
   font-weight: 700;
 }
 
