@@ -19,7 +19,7 @@
   --header: #081525;
   --panel: #0b1c33;
   --cell: #0c2038;
-  --today: #16456f;
+  --today: #1d6798;
   --line: #1e4e78;
   --line-strong: #2f6ea3;
   --green: #3ee07a;
@@ -319,8 +319,8 @@ p { margin: 0; }
 }
 
 .last-photo {
-  width: min(420px, 78%);
-  max-height: 52%;
+  width: min(480px, 86%);
+  max-height: 58%;
   aspect-ratio: 5 / 6;
   object-fit: cover;
   border-radius: 10px;
