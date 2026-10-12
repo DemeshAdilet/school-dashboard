@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Асхана — ОТАН МЕКТЕР</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="screen">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-name">ОТАН МЕКТЕР</span>
+        <span class="brand-ver">5.88.5.31</span>
+      </div>
+      <h1 class="title">Асхана — бүгінгі тамақтану</h1>
+      <div class="now">
+        <div class="now-meta">
+          <div id="day-name" class="day-name"></div>
+          <div id="date" class="date"></div>
+        </div>
+        <div id="clock" class="clock">00 : 00</div>
+      </div>
+    </header>
+    <main class="canteen">
+      <section class="panel count-panel">
+        <h2 class="panel-label">Бүгін тамақтанды</h2>
+        <div class="count-body">
+          <p id="meal-count" class="count-value">0</p>
+          <p class="count-unit">оқушы</p>
+        </div>
+      </section>
+      <section class="panel last-panel">
+        <h2 class="panel-label">Соңғы оқушы</h2>
+        <div id="last-pupil" class="last-body"></div>
+      </section>
+      <section class="panel feed-panel">
+        <h2 class="panel-label">Соңғы өткендер</h2>
+        <div id="pass-list" class="pass-list"></div>
+      </section>
+    </main>
+  </div>
+  <script src="data/students.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/canteen.js"></script>
+</body>
+</html>

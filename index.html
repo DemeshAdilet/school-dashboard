@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сабақ кестесі — ОТАН МЕКТЕР</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="screen">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-name">ОТАН МЕКТЕР</span>
+        <span class="brand-ver">5.88.5.31</span>
+      </div>
+      <h1 class="title">Сабақ кестесі 2024-2025 оқу жылы</h1>
+      <div class="now">
+        <div class="now-meta">
+          <div id="day-name" class="day-name"></div>
+          <div id="date" class="date"></div>
+        </div>
+        <div id="clock" class="clock">00 : 00</div>
+      </div>
+    </header>
+    <main id="board" class="board"></main>
+    <footer class="proverb">
+      <span class="proverb-label">Мақал-мәтелдер:</span>
+      <span class="proverb-text">«Өрге жүзген өнегелі ісімен, Таңда адал дос өз теңінің ішінен» (Әл – Фараби)</span>
+    </footer>
+  </div>
+  <script src="data/schedule.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/schedule.js"></script>
+</body>
+</html>
