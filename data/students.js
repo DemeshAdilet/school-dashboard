@@ -9,7 +9,7 @@
       firstName: firstName,
       grade: grade,
       susn: susn,
-      photo: "assets/avatars/" + id + ".svg",
+      photo: "assets/avatars/empty.svg",
     };
   }
 
