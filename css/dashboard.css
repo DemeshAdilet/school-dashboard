@@ -318,9 +318,9 @@ p { margin: 0; }
 .meal-footnote #meal-count.is-bump { animation: bump 0.45s ease; }
 
 .last-photo {
-  width: min(420px, 48%);
-  max-height: 58%;
-  aspect-ratio: 1 / 1;
+  flex: 0 0 auto;
+  width: min(38vh, 28vw, 360px);
+  height: min(38vh, 28vw, 360px);
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--line-strong);
